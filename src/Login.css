@@ -1,0 +1,69 @@
+.login-container{
+    display: flex;
+justify-content: space-around;
+
+}
+.login-text{
+    width: 45%;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: left;
+    padding: 50px;
+  
+}
+.login-pic{
+   height: calc(100vh - 100px);
+    width: 55%;
+    padding: 50px;
+    /* background-image: url("../images/tree2.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.form-innerbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-innerbox > input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #8ecae6;
+}
+button{
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #219ebc;
+    color: #f1faee;
+    font-size: 15px;
+}
+a{
+    color: #219ebc ;
+    text-decoration: none;
+}
+@media(max-width: 768px) {
+    .login-container{
+        flex-direction: column;
+    }
+    .login-text{
+        width: 100%;
+    }
+    .login-pic{
+        width: 100%;  
+       
+    }
+    .form-innerbox > input{
+        width: 180px;
+        padding: 5px;
+    }
+}

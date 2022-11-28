@@ -1,0 +1,30 @@
+.register-container{
+    padding: 5vh 30vh;
+    
+}
+h1{
+    text-align: center;
+}
+form{
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+label{
+    align-items: left;
+  
+}
+input{
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid lightskyblue;
+}
+.submit-btn{
+    width: 200%;
+    display: flex;
+    margin-top:50px;
+    
+    /* border: 2px solid red; */
+}
